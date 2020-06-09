@@ -10,7 +10,7 @@
     <title>WATM Demo: North America</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/watm.css" rel="stylesheet">
   </head>
 
   <body>
@@ -20,6 +20,17 @@
           <hr/>
       </div>
     </div>
+
+    <div id="clock"></div>
+    <script>
+      let date = new Date();
+      let hours = date.getHours();
+      let minutes = date.getMinutes();
+      let seconds = date.getSeconds();
+      let timeZone = date.getTimezoneOffset();
+      //document.getElementById("clock").innerHTML = hours + " : " + minutes + " : " + seconds + " " + timeZone;
+      document.getElementById("clock").innerHTML = date;
+    </script>
 
     <!-- Wrap the rest of the page in another container to center all the content. -->
 

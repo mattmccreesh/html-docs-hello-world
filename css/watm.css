@@ -1,0 +1,59 @@
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    background-color: grey;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    color: #66ff99;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    margin: 10px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-xs-12, col-sm-6{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-xs-12, col-sm-6 {
+    float: left;
+}
+.col-xs-12 {
+    width: 100%;
+}
+.col-sm-6 {
+    width: 50%;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}

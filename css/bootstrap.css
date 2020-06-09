@@ -233,6 +233,7 @@ th {
   h3 {
     orphans: 3;
     widows: 3;
+    color: yellow;
   }
   h2,
   h3 {
